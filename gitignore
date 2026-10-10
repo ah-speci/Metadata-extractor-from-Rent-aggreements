@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets (API keys must only live in environment variables)
+.env
+*.key
+
+# Notebooks / editors / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store

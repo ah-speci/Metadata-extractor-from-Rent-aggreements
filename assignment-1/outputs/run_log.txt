@@ -1,0 +1,115 @@
+WARNING: Documents overlap between train and test:
+  - 24158401-rental-agreement
+Overlapping training labels will NOT be used as examples.
+
+Training rows: 10
+Test rows: 4
+Distinct labeled examples available: 9
+
+======================================================================
+Processing 1/4: 24158401-Rental-Agreement
+Normalized filename key: 24158401-rental-agreement
+Extracted text length: 3405 characters
+Retrieved examples: 3
+
+Most relevant training examples:
+Similarity: 0.2335 | File: 54945838-Rental-Agreement
+Similarity: 0.2191 | File: 54770958-Rental-Agreement
+Similarity: 0.2158 | File: 18325926-Rental-Agreement-1
+
+Predicted metadata:
+{
+  "Aggrement Value": "12000",
+  "Aggrement Start Date": "01.04.2008",
+  "Aggrement End Date": "31.03.2009",
+  "Renewal Notice (Days)": "90.0",
+  "Party One": "Sri Hanumaiah",
+  "Party Two": "Sri Vishal Bhardwaj"
+}
+Prediction status: ok
+
+======================================================================
+Processing 2/4: 95980236-Rental-Agreement
+Normalized filename key: 95980236-rental-agreement
+Extracted text length: 3385 characters
+Retrieved examples: 3
+
+Most relevant training examples:
+Similarity: 0.2818 | File: 54945838-Rental-Agreement
+Similarity: 0.2583 | File: 47854715-RENTAL-AGREEMENT
+Similarity: 0.2440 | File: 54770958-Rental-Agreement
+
+Predicted metadata:
+{
+  "Aggrement Value": "9000",
+  "Aggrement Start Date": "01.04.2010",
+  "Aggrement End Date": "31.02.2011",
+  "Renewal Notice (Days)": "60.0",
+  "Party One": "P C MATHEW",
+  "Party Two": "L GOPINATH"
+}
+Prediction status: ok
+
+======================================================================
+Processing 3/4: 156155545-Rental-Agreement-Kns-Home
+Normalized filename key: 156155545-rental-agreement-kns-home
+Extracted text length: 4194 characters
+Retrieved examples: 3
+
+Most relevant training examples:
+Similarity: 0.2562 | File: 54945838-Rental-Agreement
+Similarity: 0.2525 | File: 47854715-RENTAL-AGREEMENT
+Similarity: 0.2259 | File: 50070534-RENTAL-AGREEMENT
+
+Predicted metadata:
+{
+  "Aggrement Value": "12000",
+  "Aggrement Start Date": "01.04.2010",
+  "Aggrement End Date": "30.03.2011",
+  "Renewal Notice (Days)": "90.0",
+  "Party One": "V.K.NATARAJ",
+  "Party Two": "SRI VYSHNAVI DAIRY SPECIALITIES Private Ltd."
+}
+Prediction status: ok
+
+======================================================================
+Processing 4/4: 228094620-Rental-Agreement
+Normalized filename key: 228094620-rental-agreement
+Extracted text length: 5070 characters
+Retrieved examples: 3
+
+Most relevant training examples:
+Similarity: 0.2880 | File: 50070534-RENTAL-AGREEMENT
+Similarity: 0.2469 | File: 44737744-Maddireddy-Bhargava-Reddy-Rental-Agreement
+Similarity: 0.2177 | File: 47854715-RENTAL-AGREEMENT
+
+Predicted metadata:
+{
+  "Aggrement Value": "165000.00 (Rupees One lakh sixty five thousand Only)",
+  "Aggrement Start Date": "07.07.2013",
+  "Aggrement End Date": "06.06.2014",
+  "Renewal Notice (Days)": "60.0",
+  "Party One": "Mr. KAPIL MEHROTRA",
+  "Party Two": "Mr.B.Kishore"
+}
+Prediction status: ok
+
+======================================================================
+Prediction run complete.
+Documents processed: 4
+Predictions saved to: /home/sahil/assignment1/assignment-1/outputs/test_predictions.csv
+Diagnostics saved to: /home/sahil/assignment1/assignment-1/outputs/prediction_diagnostics.csv
+
+Prediction preview:
+                          File Name                                      Aggrement Value Aggrement Start Date Aggrement End Date Renewal Notice (Days)          Party One                                    Party Two
+          24158401-Rental-Agreement                                                12000           01.04.2008         31.03.2009                  90.0      Sri Hanumaiah                          Sri Vishal Bhardwaj
+          95980236-Rental-Agreement                                                 9000           01.04.2010         31.02.2011                  60.0         P C MATHEW                                   L GOPINATH
+156155545-Rental-Agreement-Kns-Home                                                12000           01.04.2010         30.03.2011                  90.0        V.K.NATARAJ SRI VYSHNAVI DAIRY SPECIALITIES Private Ltd.
+         228094620-Rental-Agreement 165000.00 (Rupees One lakh sixty five thousand Only)           07.07.2013         06.06.2014                  60.0 Mr. KAPIL MEHROTRA                                 Mr.B.Kishore
+
+Diagnostic summary:
+                          File Name Prediction Status
+          24158401-Rental-Agreement                ok
+          95980236-Rental-Agreement                ok
+156155545-Rental-Agreement-Kns-Home                ok
+         228094620-Rental-Agreement                ok
